@@ -5,5 +5,6 @@ Story telling and visualization to describe the 120 years of Olympics data, dati
 
 For the analysis, **"Jupyter notebooks"** and **"Tableau**" are used.
   
-Data sets are collected from previous project "Jimmy Wrangler - Data Exploration" [here] (https://github.com/mugdhabajjuri/Datascience1)
+Data sets are collected from previous project "Jimmy Wrangler - Data Exploration" 
+[here](https://github.com/mugdhabajjuri/Datascience1)
 
