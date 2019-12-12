@@ -47,6 +47,199 @@ goldMedals['ID'][goldMedals['Age'] > 50].count()
 #### - In 1904 female age distribution is strongly different from the other Olympics
 
 
+```python
+data.loc[data['Age'] > 80].head(10)
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Sex</th>
+      <th>Age</th>
+      <th>Height</th>
+      <th>Weight</th>
+      <th>Team</th>
+      <th>NOC</th>
+      <th>Games</th>
+      <th>Year</th>
+      <th>Season</th>
+      <th>City</th>
+      <th>Sport</th>
+      <th>Event</th>
+      <th>Medal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>9371</th>
+      <td>5146</td>
+      <td>George Denholm Armour</td>
+      <td>M</td>
+      <td>84.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Great Britain</td>
+      <td>GBR</td>
+      <td>1948 Summer</td>
+      <td>1948</td>
+      <td>Summer</td>
+      <td>London</td>
+      <td>Art Competitions</td>
+      <td>Art Competitions Mixed Painting, Unknown Event</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>60861</th>
+      <td>31173</td>
+      <td>Thomas Cowperthwait Eakins</td>
+      <td>M</td>
+      <td>88.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>United States</td>
+      <td>USA</td>
+      <td>1932 Summer</td>
+      <td>1932</td>
+      <td>Summer</td>
+      <td>Los Angeles</td>
+      <td>Art Competitions</td>
+      <td>Art Competitions Mixed Painting, Unknown Event</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>60862</th>
+      <td>31173</td>
+      <td>Thomas Cowperthwait Eakins</td>
+      <td>M</td>
+      <td>88.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>United States</td>
+      <td>USA</td>
+      <td>1932 Summer</td>
+      <td>1932</td>
+      <td>Summer</td>
+      <td>Los Angeles</td>
+      <td>Art Competitions</td>
+      <td>Art Competitions Mixed Painting, Unknown Event</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>60863</th>
+      <td>31173</td>
+      <td>Thomas Cowperthwait Eakins</td>
+      <td>M</td>
+      <td>88.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>United States</td>
+      <td>USA</td>
+      <td>1932 Summer</td>
+      <td>1932</td>
+      <td>Summer</td>
+      <td>Los Angeles</td>
+      <td>Art Competitions</td>
+      <td>Art Competitions Mixed Painting, Unknown Event</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>98118</th>
+      <td>49663</td>
+      <td>Winslow Homer</td>
+      <td>M</td>
+      <td>96.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>United States</td>
+      <td>USA</td>
+      <td>1932 Summer</td>
+      <td>1932</td>
+      <td>Summer</td>
+      <td>Los Angeles</td>
+      <td>Art Competitions</td>
+      <td>Art Competitions Mixed Painting, Unknown Event</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>154855</th>
+      <td>77710</td>
+      <td>Robert Tait McKenzie</td>
+      <td>M</td>
+      <td>81.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Canada</td>
+      <td>CAN</td>
+      <td>1948 Summer</td>
+      <td>1948</td>
+      <td>Summer</td>
+      <td>London</td>
+      <td>Art Competitions</td>
+      <td>Art Competitions Mixed Sculpturing, Unknown Event</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>236912</th>
+      <td>118789</td>
+      <td>Louis Tauzin</td>
+      <td>M</td>
+      <td>81.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>France</td>
+      <td>FRA</td>
+      <td>1924 Summer</td>
+      <td>1924</td>
+      <td>Summer</td>
+      <td>Paris</td>
+      <td>Art Competitions</td>
+      <td>Art Competitions Mixed Sculpturing</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>257054</th>
+      <td>128719</td>
+      <td>John Quincy Adams Ward</td>
+      <td>M</td>
+      <td>97.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>United States</td>
+      <td>USA</td>
+      <td>1928 Summer</td>
+      <td>1928</td>
+      <td>Summer</td>
+      <td>Amsterdam</td>
+      <td>Art Competitions</td>
+      <td>Art Competitions Mixed Sculpturing, Statues</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
 
 ### ART COMPETITIONS --- I did not know that the Olympics include Art Competitions!!
 
