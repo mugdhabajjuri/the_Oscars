@@ -8,7 +8,21 @@ For the analysis, **"Jupyter notebooks"** and **"Tableau**" are used.
 Data sets are collected from previous project "Jimmy Wrangler - Data Exploration" 
 [here](https://github.com/mugdhabajjuri/Datascience1)
 
-# Story telling in Jupyter Notebook
+# Story telling and visualizations in Tableau
+
+Conutry wise Count of Participants and Country wise most received medal
+
+![png](reports/Country_dashboard.png)
+
+Medal distribution by country and Medal distribution by Athletes
+
+![png](reports/Medal_dashboard.png)
+
+Comparison of male and female participants over the years
+
+![png](reports/Women_dashboard.png)
+
+# Story telling and visualizations in Jupyter Notebook
 
 
 ## Distribution of the age of gold medalists
