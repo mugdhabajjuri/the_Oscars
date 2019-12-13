@@ -10,15 +10,15 @@ Data sets are collected from previous project "Jimmy Wrangler - Data Exploration
 
 # Story telling and visualizations in Tableau
 
-### Conutry wise Count of Participants and Country wise most received medal
+### Conutry wise distributions
 
 ![png](reports/Country_dashboard.png)
 
-### Medal distribution by country and Medal distribution by Athletes
+### Medal distributions
 
 ![png](reports/Medal_dashboard.png)
 
-### Comparison of male and female participants over the years
+### Female athelets in Olympics
 
 ![png](reports/Women_dashboard.png)
 
